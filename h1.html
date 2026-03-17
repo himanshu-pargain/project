@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+             padding: 0;
+            margin: 0;
+
+            text-align: center;
+           
+            
+
+
+        }
+
+        header{
+            background-color: gray;
+            text-align: center;
+             padding: 10px;
+            margin: 0;
+
+
+        }
+
+        form{
+            width: 50%;
+            margin: auto;
+            background-color: bisque;
+            text-align: center;
+            border: 2px;
+            border-color: black;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 , 0 10px, rgb(3, 7, 21);
+
+        }
+
+        input , textarea , select{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid aqua;
+        }
+
+        button[type = "Registration"]{
+        background-color: yellow;
+        color: black;
+        cursor: pointer;
+        padding: 10px 20px;
+        border: 8px, solid green;
+
+
+        }
+
+         button[type = "Reset"]{
+        background-color: yellow;
+        color: black;
+        cursor: pointer;
+        padding: 10px 20px;
+        border: 8px, solid green;
+
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: xx-large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Registration Form</h1>
+    </header>
+
+    <main>
+        <form action="">
+            <label for="name">full name : </label>
+            <input type="text" id="name " required> <br> <br>
+            
+            <label for="email">your email : </label>
+            <input type="text" id="email" required> <br> <br>
+            
+            <label for="phone no">your contant no : </label>
+            <input type="tel" id="phone no"required> <br> <br>
+            
+            <label for="gender">Gender : </label>
+            <select id="name" name="name">
+                <option value="blank"></option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>
+            </select> <br> <br>
+
+            <label for="country">Country : </label>
+            <select name="country" id="country">
+                <option value="blank"></option>
+                <option value="india">India</option>
+                <option value="america">America</option>
+                <option value="UAE">UAE</option> 
+            </select> <br> <br>
+
+            <label for="state">State : </label>
+            <select name="state" id="state">
+                <option value="blank"></option>
+                <option value="haryana">Haryana</option>
+                <option value="delhi">Delhi</option>
+                <option value="mumbai">Mumbai</option>
+            </select> <br><br>
+
+            <button>Registration</button>
+            <button>Reset</button>
+
+
+
+
+
+
+
+        </form>
+    </main>
+</body>
+</html>
